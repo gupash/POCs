@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ExceptionUDF">
+    <output-path>$PROJECT_DIR$/out/artifacts/ExceptionUDF</output-path>
+    <root id="archive" name="ExceptionUDF.jar">
+      <element id="module-output" name="PigUdfForMitchell" />
+    </root>
+  </artifact>
+</component>

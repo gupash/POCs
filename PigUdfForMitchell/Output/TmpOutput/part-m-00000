@@ -1,0 +1,4 @@
+Oracle ExceptionORA-20080	ORA-06512, 2015-11-06T16:49:11.082+05:30, com.mitchell.resourcemanagement.dao.WorkGroupsDAO, getWorkGroupManager, Invalid input combination of Company Code, Workgroup Id, and Workgroup, jboss_jbc7
+MitchellException	159507, Thu Nov 05 22:23:00 PST 2015, com.mitchell.services.technical.workcenter.edog.pojo.EDOGManagerImpl, evaluate, Error in evaluating the MWM doc, dapp11lxv.mitchell.com
+Oracle ExceptionORA-20080	ORA-06512, 2015-11-06T16:49:11.082+05:30, com.mitchell.resourcemanagement.dao.WorkGroupsDAO, getWorkGroupManager, Invalid input combination of Company Code, Workgroup Id, and Workgroup, jboss_jbc7
+MitchellException	159507, Thu Nov 05 22:23:00 PST 2015, com.mitchell.services.technical.workcenter.edog.pojo.EDOGManagerImpl, evaluate, Error in evaluating the MWM doc, dapp11lxv.mitchell.com
