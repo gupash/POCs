@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/POCs.iml" filepath="$PROJECT_DIR$/POCs.iml" />
       <module fileurl="file://$PROJECT_DIR$/PigUdfForMitchell/PigUdfForMitchell.iml" filepath="$PROJECT_DIR$/PigUdfForMitchell/PigUdfForMitchell.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WordCountSpark/WordCountSpark.iml" filepath="$PROJECT_DIR$/WordCountSpark/WordCountSpark.iml" />
     </modules>
   </component>
 </project>
