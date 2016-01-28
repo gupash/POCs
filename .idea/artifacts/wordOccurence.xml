@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="wordOccurence">
-    <output-path>$PROJECT_DIR$/out/artifacts/wordOccurence</output-path>
-    <root id="archive" name="wordOccurence.jar">
-      <element id="module-output" name="WordCountSpark" />
-    </root>
-  </artifact>
-</component>
