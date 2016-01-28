@@ -65,19 +65,19 @@ object EscrowproxyIcdp {
       val failure_uu = failure.map(_._1._1).distinct.count.toInt
       println("failure_uu : " + failure_uu)
 
-      val pc_failure_cnt = usefulData.filter(l => (l._2 != "200" && l._6 == "-6015")).map(_._5.toDouble).sum.toInt
+      val pc_failure_cnt = usefulData.filter(l => l._2 != "200" && l._6 == "-6015").map(_._5.toDouble).sum.toInt
       println("pc_failure_cnt : " + pc_failure_cnt)
 
-      val pc_failure_uu = usefulData.filter(l => (l._2 != "200" && l._6 == "-6015")).map(_._1).distinct.count.toInt
+      val pc_failure_uu = usefulData.filter(l => l._2 != "200" && l._6 == "-6015").map(_._1).distinct.count.toInt
       println("pc_failure_uu : " + pc_failure_uu)
 
-      val record_cnt = usefulData.filter(l => (l._7.contains("record"))).map(_._5.toDouble).sum.toInt
+      val record_cnt = usefulData.filter(l => l._7.contains("record")).map(_._5.toDouble).sum.toInt
       println("record_cnt : " + record_cnt)
 
-      val record_success_uu = usefulData.filter(l => (l._2 == "200" && l._7.contains("record"))).map(_._1).distinct.count.toInt
+      val record_success_uu = usefulData.filter(l => l._2 == "200" && l._7.contains("record")).map(_._1).distinct.count.toInt
       println("record_success_uu : " + record_success_uu)
 
-      val record_failure_uu = usefulData.filter(l => (l._2 != "200" && l._7.contains("record"))).map(_._1).distinct.count.toInt
+      val record_failure_uu = usefulData.filter(l => l._2 != "200" && l._7.contains("record")).map(_._1).distinct.count.toInt
       println("record_failure_uu : " + record_failure_uu)
 
       //Group KPI 1 - DVC.VER.UU
