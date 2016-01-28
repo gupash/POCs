@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/EscrowProxyDFSpark/EscrowProxyDFSpark.iml" filepath="$PROJECT_DIR$/EscrowProxyDFSpark/EscrowProxyDFSpark.iml" />
       <module fileurl="file://$PROJECT_DIR$/POCs.iml" filepath="$PROJECT_DIR$/POCs.iml" />
       <module fileurl="file://$PROJECT_DIR$/PigUdfForMitchell/PigUdfForMitchell.iml" filepath="$PROJECT_DIR$/PigUdfForMitchell/PigUdfForMitchell.iml" />
       <module fileurl="file://$PROJECT_DIR$/SparkTwitterStreaming/SparkTwitterStreaming.iml" filepath="$PROJECT_DIR$/SparkTwitterStreaming/SparkTwitterStreaming.iml" />

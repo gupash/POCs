@@ -14,7 +14,7 @@ object StreamData {
     val ssc = new StreamingContext(conf, Seconds(1))
     val cb = new ConfigurationBuilder
 
-    Logger.getRootLogger().setLevel(Level.ERROR)
+    Logger.getRootLogger.setLevel(Level.ERROR)
 
     cb.setDebugEnabled(true).setOAuthConsumerKey("dbLbzxvM3jS6eT4Wvpb64Bp9H")
       .setOAuthConsumerSecret("lMBBpI06CPxPiYJGRfMNERnYN9raRqYVpImvr4PHoOnSUqyqlu")

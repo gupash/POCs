@@ -22,11 +22,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="EscrowProxyDFSpark" />
         <module name="SparkTwitterStreaming" />
         <module name="WordCountSpark" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="EscrowProxyDFSpark" target="1.5" />
       <module name="SparkTwitterStreaming" target="1.5" />
       <module name="SparkWordCount" target="1.5" />
       <module name="WordCountSpark" target="1.5" />
