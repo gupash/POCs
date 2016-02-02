@@ -1,9 +1,7 @@
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.storage.StorageLevel
 import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark.sql.SQLContext
 import org.apache.spark.rdd._
-
 /**
   * Sample Data
   * PRS_ID	LABEL	WEB	EVENT_TYPE	EVENT_TIME	RESPONSE	SLMT	COMMAND	CLIENT_INFO	CLUBH	ERROR_CODE	USER_AGENT	PRS_ID
@@ -37,7 +35,6 @@ object EscrowproxyIcdp {
 
     val conf = new SparkConf().setMaster("local").setAppName("EscrowProxyDF").set("spark.executor.memory", "2G").set("spark.driver.memory", "1G")
     val sc = new SparkContext(conf)
-    val sqlContext = new SQLContext(sc)
 
     val pattern = "[a-zA-Z]+".r
 
