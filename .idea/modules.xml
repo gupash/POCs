@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EscrowProxyDFSpark/EscrowProxyDFSpark.iml" filepath="$PROJECT_DIR$/EscrowProxyDFSpark/EscrowProxyDFSpark.iml" />
       <module fileurl="file://$PROJECT_DIR$/IcdpEscrowMR/IcdpEscrowMR.iml" filepath="$PROJECT_DIR$/IcdpEscrowMR/IcdpEscrowMR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MlibPractice/MlibPractice.iml" filepath="$PROJECT_DIR$/MlibPractice/MlibPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/POCs.iml" filepath="$PROJECT_DIR$/POCs.iml" />
       <module fileurl="file://$PROJECT_DIR$/PigUdfForMitchell/PigUdfForMitchell.iml" filepath="$PROJECT_DIR$/PigUdfForMitchell/PigUdfForMitchell.iml" />
       <module fileurl="file://$PROJECT_DIR$/SparkTwitterStreaming/SparkTwitterStreaming.iml" filepath="$PROJECT_DIR$/SparkTwitterStreaming/SparkTwitterStreaming.iml" />

@@ -33,7 +33,7 @@ public class Driver extends Configured implements Tool {
 
     public int run(String[] args) throws Exception {
         Configuration conf = this.getConf();
-        if(args.length < 2) {
+        if(args.length < 1) {
             LOGGER.error("This job expects two command line arguments: args[0] is input file path, args[2] is output file path");
             return 1;
         } else {

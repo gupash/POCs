@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/WordCountSpark/pom.xml" />
         <option value="$PROJECT_DIR$/SparkTwitterStreaming/pom.xml" />
         <option value="$PROJECT_DIR$/EscrowProxyDFSpark/pom.xml" />
+        <option value="$PROJECT_DIR$/MlibPractice/pom.xml" />
       </list>
     </option>
   </component>
